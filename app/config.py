@@ -3,7 +3,7 @@ from os import environ
 HTTP_PROVIDER_URL = environ.get("HTTP_PROVIDER_URL")
 WS_PROVIDER_URL = environ.get("WS_PROVIDER_URL")
 
-ED_CONTRACT_ADDR = '0x8d12a197cb00d4747a1fe03395095ce2a5cc6819'
+ED_CONTRACT_ADDR = '0x2745B7b912FAaF1A5c4f68ff3BE03E31E60cAf89'
 with open('etherdelta.abi.json') as f:
     import json
     ED_CONTRACT_ABI = json.load(f)
